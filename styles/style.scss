@@ -1,18 +1,13 @@
-@import '';
+@use 'abstracts';
+@use 'components';
 
-:root {
-    --subTitleLeftMargin: 1.5vw;
-}
+body {
+    background-color: rgb(62, 139, 139);
 
-.element {
-    margin-left: var(--subTitleLeftMargin);
-}
+    font-size: small;
+    display: inline;
 
-div {
-    background-color: alpha($color: #000000);
-
-    h2 {
-        background-color: black;
+    @media (min-width: 600px) {
+        background-color: rgb(50, 195, 103);
     }
-
 }

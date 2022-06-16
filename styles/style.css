@@ -1,14 +1,14 @@
-:root {
-  --subTitleLeftMargin: 1.5vw;
-}
-
-.element {
-  margin-left: var(--subTitleLeftMargin);
-}
-
-div {
-  background-color: 1;
-}
-div h2 {
+header {
   background-color: black;
+}
+
+body {
+  background-color: rgb(62, 139, 139);
+  font-size: small;
+  display: inline;
+}
+@media (min-width: 600px) {
+  body {
+    background-color: rgb(50, 195, 103);
+  }
 }/*# sourceMappingURL=style.css.map */
