@@ -1,0 +1,18 @@
+@import '';
+
+:root {
+    --subTitleLeftMargin: 1.5vw;
+}
+
+.element {
+    margin-left: var(--subTitleLeftMargin);
+}
+
+div {
+    background-color: alpha($color: #000000);
+
+    h2 {
+        background-color: black;
+    }
+
+}

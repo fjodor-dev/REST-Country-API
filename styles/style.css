@@ -1,0 +1,14 @@
+:root {
+  --subTitleLeftMargin: 1.5vw;
+}
+
+.element {
+  margin-left: var(--subTitleLeftMargin);
+}
+
+div {
+  background-color: 1;
+}
+div h2 {
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */
